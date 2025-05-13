@@ -1,0 +1,27 @@
+[project]
+name = "travelsalesmangoogleapi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "arturgorski14",email = "arturgorski14@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.3,<3.0.0)",
+    "folium (>=0.19.5,<0.20.0)",
+    "ortools (>=9.12.4544,<10.0.0)",
+    "dotenv (>=0.9.9,<0.10.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+black = "^25.1.0"
+isort = "^6.0.1"
+flake8 = "^7.2.0"
+
